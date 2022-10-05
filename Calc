@@ -69,6 +69,8 @@ public class Calc {
             case "*":
                 result = x * y;
                 break;
+            default:
+                throw new IOException();
         }
         return result;
 
